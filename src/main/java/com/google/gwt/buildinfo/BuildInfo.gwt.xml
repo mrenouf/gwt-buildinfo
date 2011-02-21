@@ -1,0 +1,12 @@
+<!DOCTYPE document SYSTEM
+    "http://google-web-toolkit.googlecode.com/svn/releases/1.7/distro-source/core/src/gwt-module.dtd">
+<module>
+  <inherits name='com.google.gwt.dom.DOM' />
+  <inherits name='com.google.gwt.core.Core' />
+  <source path="client"/>
+
+  <!-- BuildInfo generator -->
+  <generate-with class="com.google.gwt.BuildInfoGenerator">
+    <when-type-is class="com.google.gwt.client.BuildInfo" />
+  </generate-with>
+</module>
